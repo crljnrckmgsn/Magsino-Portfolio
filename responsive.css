@@ -1,0 +1,14 @@
+/* Tablet and mobile layouts */
+@media(max-width:860px){
+ .hero__grid,.split,.skills,.ach{grid-template-columns:1fr}
+ .stack{order:-1;width:min(230px,62%);justify-self:start;margin-bottom:1rem}
+ .projects{grid-template-columns:1fr}.project--a,.project--b,.project--c{grid-column:auto;margin:0}
+  .split .section__title{position:static;margin-bottom:1.5rem}
+ .timeline__item{grid-template-columns:1fr;gap:.3rem}
+ .section{padding:5rem 0}
+ .nav__toggle{display:block}
+ .nav__links{position:absolute;top:100%;inset-inline:0;flex-direction:column;align-items:flex-start;gap:1rem;background:var(--ink);padding:1.5rem;border-bottom:1px solid var(--line);display:none}
+ .nav__links.is-open{display:flex}
+ .contact__list li{grid-template-columns:1fr}
+}
+@media(max-width:860px){.card--shift{margin-left:0}.skill:nth-child(2),.ach__item:nth-child(2){margin-top:0}.contact__list li{grid-template-columns:36px 1fr}.contact__list li a{grid-column:2}}

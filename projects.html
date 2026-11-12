@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Carl Janrick Magsino</title>
+<meta name="description" content="Projects by Carl Janrick Magsino.">
+<meta name="theme-color" content="#161614">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="components.css">
+<link rel="stylesheet" href="animations.css">
+<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-mail" viewBox="0 0 24 24"><path d="M3 6h18v12H3z"/><path d="m3 7 9 7 9-7"/></symbol>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+<symbol id="i-tech" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8M12 16v4"/></symbol>
+<symbol id="i-pro" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></symbol>
+<symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><circle cx="17" cy="9" r="2.5"/><path d="M17 14a5 5 0 0 1 4 5"/></symbol>
+<symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5"/><path d="m9 13-1 8 4-2 4 2-1-8"/></symbol>
+</defs></svg>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="index.html" aria-label="Home">CJM</a>
+  <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+  <nav class="nav__links" id="navLinks" aria-label="Main"><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="projects.html" aria-current="page">Projects</a><a href="experience.html">Experience</a><a href="achievements.html">Achievements</a><a class="nav__cta" href="contact.html">Let's Connect</a></nav>
+</header>
+<main>
+<section class="page-head"><div class="wrap"><div class="head" data-reveal><span class="num">04</span><h1>Projects &amp; portfolio</h1></div><p class="big" data-reveal>Three hands-on projects built with HTML, CSS, and JavaScript. Each card opens the live project.</p></div></section><section class="section" id="projects"><div class="wrap"><div class="filters" role="group" aria-label="Filter projects"><button type="button" data-filter="all" aria-pressed="true">All</button><button type="button" data-filter="interactive" aria-pressed="false">Interactive</button><button type="button" data-filter="calculator" aria-pressed="false">Calculator</button><button type="button" data-filter="science" aria-pressed="false">Science</button></div><p class="meta" id="filterStatus" role="status" aria-live="polite">Showing 3 projects</p><div class="projects projects--even"><article class="project project--a" data-cat="interactive" data-reveal>
+<div class="project__media"><img src="kaepalan-ni-cj-preview.jpg" alt="Preview of the Kaepalan ni CJ page" width="800" height="500" loading="lazy"></div>
+<div class="project__body"><span class="tag">Project 01</span><h3>Kaepalan ni CJ</h3><p>A personal, interactive web page made for someone special. It combines clickable reason cards, an envelope that opens to a letter, a bear dress-up game, a music box, a love meter, a mood picker, a quiz, a scratch-to-reveal card, and a poem.</p>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Interactive</li></ul>
+<a class="btn btn--primary project__link" href="kaepalan-ni-cj.html" target="_blank" rel="noopener" aria-label="View project: Kaepalan ni CJ">View Project</a></div></article>
+<article class="project project--b" data-cat="calculator" data-reveal>
+<div class="project__media"><img src="mama-ms-store-preview.jpg" alt="Preview of the Mama M's Store checkout page" width="800" height="500" loading="lazy"></div>
+<div class="project__body"><span class="tag">Project 02</span><h3>Mama M's Store</h3><p>A checkout calculator for a small neighborhood store. Enter products, prices, and quantities; a 5% discount applies at ₱200 or more. It accepts full or partial payments, shows the change or remaining balance on a receipt, and keeps a daily sales tally in the browser.</p>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Calculator</li></ul>
+<a class="btn btn--primary project__link" href="mama-ms-store.html" target="_blank" rel="noopener" aria-label="View project: Mama M's Store">View Project</a></div></article>
+<article class="project project--c" data-cat="science interactive" data-reveal>
+<div class="project__media"><img src="periodic-table-preview.jpg" alt="Preview of The Elementals periodic table page" width="800" height="500" loading="lazy"><span class="project__scan" aria-hidden="true"></span></div>
+<div class="project__body"><span class="tag">Project 03</span><h3>Periodic Table</h3><p>"The Elementals," an interactive periodic table of 118 elements, color-coded by category. A sidebar jumps to each category, and selecting an element opens a card with its atomic number, mass, category, state at room temperature, and a short fun fact.</p>
+<ul class="tags"><li>HTML</li><li>CSS</li><li>Science</li><li>Interactive</li></ul>
+<a class="btn btn--primary project__link" href="periodic-table.html" target="_blank" rel="noopener" aria-label="View project: Periodic Table">View Project</a></div></article>
+</div></div></section>
+</main>
+<footer class="footer"><div class="wrap"><span>© 2026 Carl Janrick Aurelio Magsino</span><nav class="footer__nav" aria-label="Footer"><a href="index.html">Home</a><a href="about.html">About</a><a href="education.html">Education</a><a href="skills.html">Skills</a><a href="projects.html">Projects</a><a href="experience.html">Experience</a><a href="achievements.html">Achievements</a><a href="contact.html">Contact</a></nav></div></footer>
+<script src="main.js"></script>
+<script src="navigation.js"></script>
+<script src="motion.js"></script>
+<script src="projects.js"></script>
+</body>
+</html>
